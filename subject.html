@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Educational Academy Project</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.7 -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="css/AdminLTE.min.css">
+  <!-- AdminLTE Skins. Choose a skin from the css/skins
+       folder instead of downloading all of them to reduce the load. -->
+  <link rel="stylesheet" href="css/_all-skins.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- Google Font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+
+  <header class="main-header">
+    <!-- Logo -->
+    <a href="../../index2.html" class="logo">
+      <!-- mini logo for sidebar mini 50x50 pixels -->
+      <span class="logo-mini"><b>E</b>AC</span>
+      <!-- logo for regular state and mobile devices -->
+      <span class="logo-lg"><b>Educational Academy</span>
+    </a>
+    <!-- Header Navbar: style can be found in header.less -->
+    <nav class="navbar navbar-static-top">
+      <!-- Sidebar toggle button-->
+      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+
+      <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+          <!-- Messages: style can be found in dropdown.less-->
+         
+          <!-- Notifications: style can be found in dropdown.less -->
+          <li class="dropdown notifications-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+             <i class="fas fa-bell"></i>
+              <span class="label label-warning">10</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li class="header">You have 10 notifications</li>
+              <li>
+                <!-- inner menu: contains the actual data -->
+                <ul class="menu">
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-users text-aqua"></i> 5 new members joined today
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-warning text-yellow"></i> Very long description here that may not fit into the
+                      page and may cause design problems
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-users text-red"></i> 5 new members joined
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-shopping-cart text-green"></i> 25 sales made
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-user text-red"></i> You changed your username
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer"><a href="#">View all</a></li>
+            </ul>
+          </li>
+       
+          <!-- User Account: style can be found in dropdown.less -->
+        <li class="dropdown user user-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <img src="img/user.png" class="user-image" alt="User Image">
+              <span class="hidden-xs">User Name</span>
+            </a>
+            <ul class="dropdown-menu">
+              <!-- User image -->
+              <li class="user-header">
+                <img src="img/user.png" class="img-circle" alt="User Image">
+
+                <p>
+                  User name
+                  <small>Member since Nov. 2012</small>
+                </p>
+              </li>
+              <!-- Menu Body -->
+              <li class="user-body">
+                <div class="row">
+                  <div class="col-xs-4 text-center">
+                    <a href="#">Change Password</a>
+                  </div>
+                  <div class="col-xs-4 text-center">
+                    <a href="#">Student</a>
+                  </div>
+                  <div class="col-xs-4 text-center">
+                    <a href="#">Settings</a>
+                  </div>
+                </div>
+                <!-- /.row -->
+              </li>
+              <!-- Menu Footer-->
+              <li class="user-footer">
+                <div class="pull-left">
+                  <a href="#" class="btn btn-default btn-flat">Profile</a>
+                </div>
+                <div class="pull-right">
+                  <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <!-- Control Sidebar Toggle Button -->
+
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- Left side column. contains the logo and sidebar -->
+  <aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+      <!-- Sidebar user panel -->
+
+
+
+      <!-- /.search form -->
+      <!-- sidebar menu: : style can be found in sidebar.less -->
+      <ul class="sidebar-menu" data-widget="tree">
+  
+        <li>
+          <a href="index.html">
+            <i class="fas fa-dashboard"></i> <span>Dashboard</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="curiculum.html">
+            <i class="fas fa-book-reader"></i>
+            <span>Curriculum</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right"></i>
+            </span>
+          </a>
+
+        </li>
+        <li>
+          <a href="technology.html">
+            <i class="fa fa-th"></i> <span>Technology</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="course.html">
+            <i class="fa fa-pie-chart"></i>
+            <span>Course</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right"></i>
+            </span>
+          </a>
+
+        </li>
+        <li>
+          <a href="subject.html">
+            <i class="fa fa-laptop"></i>
+            <span>Subject</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right"></i>
+            </span>
+          </a>
+         
+        </li>
+        <li>
+          <a href="teacher.html">
+            <i class="fa fa-edit"></i> <span>Teacher</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+         
+        </li>
+        <li>
+          <a href="student.html">
+            <i class="fa fa-table"></i> <span>Student</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          
+        </li>
+        <li>
+          <a href="result.html">
+            <i class="fa fa-calendar"></i> <span>Result</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="attendance.html">
+            <i class="fa fa-envelope"></i> <span>Attendance</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+        </li>
+        <li class="treeview active">
+          <a href="#">
+            <i class="fa fa-folder"></i> <span>Exam Schedule</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          
+        </li>
+        <li>
+          <a href="dues.html">
+            <i class="fa fa-share"></i> <span>Dues</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+
+        </li>
+        <li><a href="#"><i class="fa fa-book"></i> <span>Create ship</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+
+        </li>
+      <li><a href="class_routines.html"><i class="fa fa-book"></i> <span>Class Routine</span>
+          <span class="pull-right-container">
+            <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+
+      </li>
+
+      <li><a href="#"><i class="fa fa-book"></i> <span>Notice</span>
+          <span class="pull-right-container">
+            <i class="fa fa-angle-right pull-right"></i>
+            </span>
+            </a>
+      </li>
+      <li><a href="#"><i class="fa fa-book"></i> <span>Print Testimonial</span></a></li>
+
+
+       
+      </ul>
+    </section>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+
+    <!-- Main content -->
+    <section class="content">
+       <div class="row">
+         <div class="container-fluid">
+            <div class="card">
+                <div class="card-header">
+                      <i class="fas fa-chart-area"></i>
+                     Student
+                </div>
+                <div class="card-body">
+                   <div class="row">
+                   <!-- star main -->
+                       <div class="nav-tabs-custom">
+                          <ul class="nav nav-tabs">
+                            <li class="active"><a href="#Attendance" data-toggle="tab">Attendance</a></li>
+                            <li><a href="#Marks_Entry" data-toggle="tab">Marks Entry</a></li>
+                            <li><a href="#Syllabus_list" data-toggle="tab">Syllabus</a></li>
+                            <li><a href="#Exam_schedule" data-toggle="tab">Exam schedule</a></li>
+                            <li><a href="#Student_list" data-toggle="tab">Student list</a></li>
+                          </ul>
+                          <div class="tab-content">
+                          <!-- tab-->
+                                <div class="active tab-pane" id="Attendance">
+
+                                    <div class="card margin_bottom">
+                                          <div class="card-header">
+                                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                             Student Attendance
+                                          </div>
+                                         <div class="card-body">
+                                            <div class="table-responsive">
+                                              <form>
+                                               <h4 style="text-align:center">Subject Name: Math</h4>
+                                               <div class="col-md-6">
+                                                <p>Subject code: 4012</p>
+                                                <p>Teacher Name: saiful</p>
+                                              </div>
+                                              <div class="col-md-6 ">
+                                                <div class="pull-right">
+                                                
+                                                  <p>semester: 2012-13</p>
+                                                  <p>Date: 2012-13</p>
+                                                </div>
+                                              </div>
+                                              <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                                <thead>
+                                                  <tr>
+                                                    <th>SL</th>
+                                                    <th>ID</th>
+                                                    <th>Name</th>
+                                                    <th>Present</th>
+
+                                                    
+                                                  </tr>
+                                                </thead>
+
+                                                <tbody>
+                                                  <tr>
+                                                    <td>1</td>
+                                                
+                                                    <td>1209027</td>
+                                                    <td>saiful</td>
+                                                    <td><input class="form-check-input" type="checkbox" id="gridCheck"></td>
+
+                                                  </tr>
+                                                   <tr>
+                                                    <td>2</td>
+                                                
+                                                    <td>1209027</td>
+                                                    <td>saiful</td>
+                                                    <td><input class="form-check-input" type="checkbox" id="gridCheck"></td>
+
+                                                  </tr>
+                                                </tbody>
+
+                                              </table>
+                                              <input type="submit" value="Submit" class="btn btn-primary" >
+                                            </form>
+                                          </div> 
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- end attendance tab-->
+                                <div class="tab-pane" id="Marks_Entry">
+
+                                   <div class="card margin_bottom">
+                                         <div class="card-header">
+                                          <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                           Marks Entry
+                                         </div>
+                                        <div class="card-body">
+                                            <ul class="nav nav-tabs">
+                                              <li class="active"><a href="#Class_Test" data-toggle="tab">Class Test</a></li>
+                                          
+                                              <li><a href="#Mid_Term" data-toggle="tab">Mid Term</a></li>
+                                              <li><a href="#Semester_Final" data-toggle="tab">Semester Final</a></li> 
+                                            </ul>
+                                            <div class="tab-content">
+                                               <div class="active tab-pane" id="Class_Test">
+                                                   <div class="table-responsive">
+                                                       <form>
+                                                         <h4 style="text-align:center">Subject Name: Math</h4>
+                                                         <div class="col-md-6">
+                                                          <p>Subject code: 4012</p>
+                                                          <p>Teacher Name: saiful</p>
+                                                          <p>Name of Exam: Class Test</p>
+                                                        </div>
+                                                        <div class="col-md-6 ">
+                                                          <div class="pull-right">
+                                                          
+                                                            <p>semester: 2012-13</p>
+                                                            <p>Date: 2012-13</p>
+                                                          </div>
+                                                        </div>
+                                                      <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                                        <thead>
+                                                          <tr>
+                                                            <th>SL</th>
+                                                            <th>ID</th>
+                                                            <th>Name</th>
+                                                            <th>class test 1</th>
+                                                            <th>class test 2</th>
+                                                            <th>class test 3</th>
+
+                                                            
+                                                          </tr>
+                                                        </thead>
+
+                                                        <tbody>
+                                                          <tr>
+                                                            <td>1</td>
+                                                        
+                                                            <td>1209027</td>
+                                                            <td>saiful</td>
+                                                            <td><input type="text"  name="mark" value="" /></td>
+                                                            <td><input type="text"  name="mark" value="" /></td>
+                                                            <td><input type="text"  name="mark" value="" /></td>
+
+                                                          </tr>
+                                                           <tr>
+                                                            <td>2</td>
+                                                        
+                                                            <td>1209027</td>
+                                                            <td>saiful</td>
+                                                            <td><input type="text"  name="mark" value="" /></td>
+                                                            <td><input type="text"  name="mark" value="" /></td>
+                                                            <td><input type="text"  name="mark" value="" /></td>
+
+                                                          </tr>
+                                                        </tbody>
+
+                                                      </table>
+                                                       <input type="submit" value="Submit" class="btn btn-primary" >
+                                                    </form>
+                                                   </div>
+
+
+                                               </div>
+                                                <div class="tab-pane" id="Mid_Term">
+                                                  <div class="table-responsive">
+                                                       <form>
+                                                         <h4 style="text-align:center">Subject Name: Math</h4>
+                                                         <div class="col-md-6">
+                                                          <p>Subject code: 4012</p>
+                                                          <p>Teacher Name: saiful</p>
+                                                          <p>Name of Exam: Class Test</p>
+                                                        </div>
+                                                        <div class="col-md-6 ">
+                                                          <div class="pull-right">
+                                                          
+                                                            <p>semester: 2012-13</p>
+                                                            <p>Date: 2012-13</p>
+                                                          </div>
+                                                        </div>
+                                                      <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                                        <thead>
+                                                          <tr>
+                                                            <th>SL</th>
+                                                            <th>ID</th>
+                                                            <th>Name</th>
+                                                            <th>Mid</th>
+
+
+                                                            
+                                                          </tr>
+                                                        </thead>
+
+                                                        <tbody>
+                                                          <tr>
+                                                            <td>1</td>
+                                                        
+                                                            <td>1209027</td>
+                                                            <td>saiful</td>
+                                                            <td><input type="text"  name="mark" value="" /></td>
+
+
+                                                          </tr>
+                                                           <tr>
+                                                            <td>2</td>
+                                                        
+                                                            <td>1209027</td>
+                                                            <td>saiful</td>
+                                                            <td><input type="text"  name="mark" value="" /></td>
+
+
+                                                          </tr>
+                                                        </tbody>
+
+                                                      </table>
+                                                     <input type="submit" value="Submit" class="btn btn-primary" >
+
+                                                    </form>
+                                                   </div>
+
+
+                                               </div>
+
+                                                <div class="tab-pane" id="Semester_Final">
+                                                     <div class="table-responsive">
+                                                       <form>
+                                                         <h4 style="text-align:center">Subject Name: Math</h4>
+                                                         <div class="col-md-6">
+                                                          <p>Subject code: 4012</p>
+                                                          <p>Teacher Name: saiful</p>
+                                                          <p>Name of Exam: Final</p>
+                                                        </div>
+                                                        <div class="col-md-6 ">
+                                                          <div class="pull-right">
+                                                          
+                                                            <p>semester: 2012-13</p>
+                                                            <p>Date: 2012-13</p>
+                                                          </div>
+                                                        </div>
+                                                      <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                                        <thead>
+                                                          <tr>
+                                                            <th>SL</th>
+                                                            <th>ID</th>
+                                                            <th>Name</th>
+                                                            <th>class test 1</th>
+                                                            <th>class test 2</th>
+                                                            <th>class test 3</th>
+
+                                                            
+                                                          </tr>
+                                                        </thead>
+
+                                                        <tbody>
+                                                          <tr>
+                                                            <td>1</td>
+                                                        
+                                                            <td>1209027</td>
+                                                            <td>saiful</td>
+                                                            <td><input type="text"  name="mark" value="" /></td>
+
+
+                                                          </tr>
+                                                           <tr>
+                                                            <td>2</td>
+                                                        
+                                                            <td>1209027</td>
+                                                            <td>saiful</td>
+                                                            <td><input type="text"  name="mark" value="" /></td>
+
+                                                          </tr>
+                                                        </tbody>
+
+                                                      </table>
+                                                      <input type="submit" value="Submit" class="btn btn-primary" >
+
+                                                    </form>
+                                                   </div>
+
+
+                                               </div>
+                                            </div>
+
+
+
+
+                                       </div>
+                                    </div>
+                                </div>
+
+                              <div class="tab-pane" id="Syllabus_list">
+                                  <div class="card margin_bottom">
+                                          <div class="card-header">
+                                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                            Syllabus List
+                                          </div>
+                                         <div class="card-body">
+                                            <div class="table-responsive">
+                                              <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                                <thead>
+                                                  <tr>
+                                                    <th>SL</th>
+                                                    <th>Subject Title</th>
+                                                    <th>Subject code</th>
+                                                    <th>Download</th>
+
+                                                    
+                                                  </tr>
+                                                </thead>
+
+                                                <tbody>
+                                                  <tr>
+                                                    <td>1</td>
+                                                
+                                                    <td>math</td>
+                                                    <td>4010</td>
+                                                    <td><a href=""> download </a></td>
+
+                                                  </tr>
+                                                  <tr>
+                                                    <td>23</td>
+                                                
+                                                    <td>math</td>
+                                                    <td>4010</td>
+                                                    <td><a href=""> download </a></td>
+
+                                                  </tr>
+                                                </tbody>
+
+                                              </table>
+                                             </div>
+                                   </div>
+                                 </div>
+                              </div>
+                              <div class="tab-pane" id="Exam_schedule">
+                                    <div class="card margin_bottom">
+                                          <div class="card-header">
+                                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                            Exam Schedule List
+                                          </div>
+                                         <div class="card-body">
+                                            <div class="table-responsive">
+                                              <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                                <thead>
+                                                  <tr>
+                                                    <th>SL</th>
+                                                    <th>Exam Name</th>
+                                                    <th>Date</th>
+                                                    <th>Time</th>
+                                                    <th>Action</th>
+
+                                                    
+                                                  </tr>
+                                                </thead>
+
+                                                <tbody>
+                                                  <tr>
+                                                    <td>1</td>
+                                                
+                                                    <td>class test1</td>
+                                                    <td>15-05-2018</td>
+                                                    <td>9.00 am</td>
+
+                                                    <td>  
+                                                    <button type="button" class="btn btn-info"><i class="fas fa-edit"></i></button> <button type="button" class="btn btn-danger"><i class="fas fa-trash" aria-hidden="true"></i></button> </td>
+
+                                                  </tr>
+                                                  <tr>
+                                                    <td>1</td>
+                                                
+                                                    <td>class test1</td>
+                                                    <td>15-05-2018</td>
+                                                    <td>9.00 am</td>
+
+                                                    <td> 
+                                                    <button type="button" class="btn btn-info"><i class="fas fa-edit"></i></button> <button type="button" class="btn btn-danger"><i class="fas fa-trash" aria-hidden="true"></i></button>
+                                                    </td>
+
+                                                  </tr>
+                                                </tbody>
+
+                                              </table>
+                                             </div>
+                                   </div>
+                                 </div>
+                              </div>
+
+                               <div class="tab-pane" id="Student_list">
+                                    <div class="card margin_bottom">
+                                          <div class="card-header">
+                                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                            Student List
+                                            <div class="pull-right">
+                                             Download
+                                            </div>
+                                          </div>
+                                         <div class="card-body">
+                                            <div class="table-responsive">
+                                              <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                                <thead>
+                                                  <tr>
+                                                    <th>SL</th>
+                                                    <th>Name</th>
+                                                    <th>Mobile Number</th>
+                                                    <th>CGPA</th>
+                                                    <th>Gender</th>
+
+                                                    
+                                                  </tr>
+                                                </thead>
+
+                                                <tbody>
+                                                  <tr>
+                                                    <td>1</td>
+                                                
+                                                    <td>class test1</td>
+                                                    <td>014479882</td>
+                                                    <td>3.50</td>
+                                                    <td>Male</td>
+   
+
+                                                  </tr>
+                                                  <tr>
+                                                    <td>1</td>
+                                                
+                                                    <td>class test1</td>
+                                                    <td>15-05-2018</td>
+                                                    <td>9.00 am</td>
+                                                    <td>Male</td>
+      
+
+                                                  </tr>
+                                                </tbody>
+
+                                              </table>
+                                             </div>
+                                   </div>
+                                 </div>
+                              </div>
+
+
+                           </div>
+                          <!-- no change div -->
+
+                          </div>
+                        </div>
+                   <!--end main-->
+                   </div>
+                </div>
+
+
+            </div>
+        </div>
+       </section>
+      </div>
+
+  <!-- /.content-wrapper -->
+  <footer class="main-footer">
+    <div class="pull-right hidden-xs">
+      <b>Version</b> 1.0.0
+    </div>
+    <strong>Copyright &copy; 2018 <a href="https:exchange-bd.com">Exchange-bd.com</a>.</strong> All rights
+    reserved.
+  </footer>
+  <!-- /.control-sidebar -->
+  <!-- Add the sidebar's background. This div must be placed
+       immediately after the control sidebar -->
+  <!-- <div class="control-sidebar-bg"></div> -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery 3 -->
+<script src="js/jquery.min.js"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="js/bootstrap.min.js"></script>
+<!-- FastClick -->
+<script src="js/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="js/demo.js"></script>
+</body>
+</html>
