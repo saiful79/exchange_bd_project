@@ -4,6 +4,6 @@ School management project design
 
 # Screenshot
 
-- ![img](sc1.png)
-- ![img](sc2.png)
-- ![img](sc3.png)
+- ![img](img/sc1.png)
+- ![img](img/sc2.png)
+- ![img](img/sc3.png)
